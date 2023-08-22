@@ -15,8 +15,8 @@
 }
 
 .container{
-    display:flex
-    aling-items:center;
+    display:flex;
+    align-content: center;
 }
 
 .container__imagem{
@@ -36,3 +36,17 @@
     padding:1em;
     background-color: var(--branco);
 }
+
+.lista-menu__titulo{
+    color: var(--laranja);
+}
+
+.lista-menu__link{
+    background: linear-gradient(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
